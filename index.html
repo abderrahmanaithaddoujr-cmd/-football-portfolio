@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Official football player portfolio. Discover profile, career and highlights."
+    />
+    <meta name="author" content="ABDERRAHMAN AIT HADDOU">
+<meta name="theme-color" content="#171717">
+    <title>Football Portfolio | Player</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="custom-cursor"></div>
+
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose">&times;</button>
+      <button class="lightbox-nav prev" id="prevImage">❮</button>
+      <img id="lightboxImage" src="" alt="Football gallery image" />
+      <div class="image-counter" id="imageCounter">1 / 1</div>
+      <button class="lightbox-nav next" id="nextImage">❯</button>
+    </div>
+
+    <div id="scrollProgress"></div>
+    <button id="backToTop" title="Back to Top" aria-label="Back to Top">↑</button>
+
+    <div class="loader" id="loader" aria-live="polite">
+      <div class="loader-content">
+        <h1>AA<span>.</span></h1>
+        <div class="loader-bar">
+          <div class="loader-progress"></div>
+        </div>
+        <p>LOADING EXPERIENCE...</p>
+      </div>
+    </div>
+
+    <header class="header">
+      <a href="#home" class="logo">PLAYER<span>.</span></a>
+
+      <nav class="nav" id="nav-menu" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#stats">Statistics</a>
+        <a href="#career">Career</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#profile">Profile</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#highlights">Highlights</a>
+        <a href="#contact">Contact</a>
+        <a href="#ambitions">Ambitions</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Toggle dark mode">
+          ☀️ Light Mode
+        </button>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <p class="eyebrow">FOOTBALL PLAYER PORTFOLIO</p>
+
+          <h1>
+            ABDERRAHMAN<br />
+            <span>AIT HADDOU.</span>
+          </h1>
+
+          <div class="player-identity">
+            <span>🇲🇦 MOROCCAN PLAYER</span>
+            <span>LEFT BACK</span>
+            <span>NUMBER 05</span>
+          </div>
+
+          <p class="hero-description">
+            Dedicated to football. Driven by ambition. Always ready for the next challenge.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#about" class="btn primary">Discover My Profile</a>
+            <a href="#highlights" class="btn secondary">Watch Highlights</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img src="assets/images/player.jpg.jpeg" alt="Abderrahman Ait Haddou football portrait" class="player-photo" />
+          <div class="player-number">05</div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">01 / PLAYER PROFILE</p>
+          <h2>PLAYER <span>IDENTITY.</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-intro">
+            <h3>ABDERRAHMAN AIT HADDOU</h3>
+            <p>
+              A Moroccan football player with a strong passion for the game, focused on discipline,
+              teamwork and continuous development.
+            </p>
+          </div>
+
+          <div class="profile-details">
+            <div>
+              <span>Full Name</span>
+              <strong>Abderrahman Ait Haddou</strong>
+            </div>
+            <div>
+              <span>Date of Birth</span>
+              <strong>04 August 2011</strong>
+            </div>
+            <div>
+              <span>Nationality</span>
+              <strong>Moroccan 🇲🇦</strong>
+            </div>
+            <div>
+              <span>City</span>
+              <strong>Laayoune, Morocco</strong>
+            </div>
+            <div>
+              <span>Position</span>
+              <strong>Left Back</strong>
+            </div>
+            <div>
+              <span>Strong Foot</span>
+              <strong>Left Foot</strong>
+            </div>
+            <div>
+              <span>Height</span>
+              <strong>186 cm</strong>
+            </div>
+            <div>
+              <span>Weight</span>
+              <strong>66 kg</strong>
+            </div>
+            <div>
+              <span>Shirt Number</span>
+              <strong>05</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">MY ABILITIES</p>
+          <h2>PLAYER <span>SKILLS.</span></h2>
+          <p class="section-note">Football skills and areas of development</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <span>01</span>
+            <h3>Defensive Positioning</h3>
+            <p>Positioning and defensive awareness</p>
+          </div>
+          <div class="skill-card reveal">
+            <span>02</span>
+            <h3>Tackling</h3>
+            <p>Defensive challenges and ball recovery</p>
+          </div>
+          <div class="skill-card reveal">
+            <span>03</span>
+            <h3>Passing</h3>
+            <p>Short and long passing</p>
+          </div>
+          <div class="skill-card reveal">
+            <span>04</span>
+            <h3>Crossing</h3>
+            <p>Attacking support from the left side</p>
+          </div>
+          <div class="skill-card reveal">
+            <span>05</span>
+            <h3>Ball Control</h3>
+            <p>First touch and ball control</p>
+          </div>
+          <div class="skill-card reveal">
+            <span>06</span>
+            <h3>Teamwork</h3>
+            <p>Communication and teamwork</p>
+          </div>
+        </div>
+        <!-- ANIMATED SKILL BARS -->
+
+<div class="skill-bars reveal">
+
+    <h3 class="skill-bars-title">PLAYER SKILL LEVELS</h3>
+
+    <div class="skill-bar">
+        <div class="skill-info">
+            <span>Defensive Positioning</span>
+            <span>75%</span>
+        </div>
+        <div class="skill-track">
+            <div class="skill-fill" style="--level: 75%"></div>
+        </div>
+    </div>
+
+    <div class="skill-bar">
+        <div class="skill-info">
+            <span>Tackling</span>
+            <span>80%</span>
+        </div>
+        <div class="skill-track">
+            <div class="skill-fill" style="--level: 80%"></div>
+        </div>
+    </div>
+
+    <div class="skill-bar">
+        <div class="skill-info">
+            <span>Passing</span>
+            <span>85%</span>
+        </div>
+        <div class="skill-track">
+            <div class="skill-fill" style="--level: 85%"></div>
+        </div>
+    </div>
+
+    <div class="skill-bar">
+        <div class="skill-info">
+            <span>Crossing</span>
+            <span>70%</span>
+        </div>
+        <div class="skill-track">
+            <div class="skill-fill" style="--level: 70%"></div>
+        </div>
+    </div>
+
+    <div class="skill-bar">
+        <div class="skill-info">
+            <span>Ball Control</span>
+            <span>80%</span>
+        </div>
+        <div class="skill-track">
+            <div class="skill-fill" style="--level: 80%"></div>
+        </div>
+    </div>
+
+</div>
+      </section>
+
+      <section class="stats section" id="stats">
+        <div class="section-heading">
+          <p class="eyebrow">PERFORMANCE</p>
+          <h2>PLAYER <span>STATISTICS.</span></h2>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <h3>--</h3>
+            <p>Matches</p>
+          </div>
+          <div class="stat-card">
+            <h3>--</h3>
+            <p>Goals</p>
+          </div>
+          <div class="stat-card">
+            <h3>--</h3>
+            <p>Assists</p>
+          </div>
+          <div class="stat-card">
+            <h3>--</h3>
+            <p>Clean Sheets</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="career section" id="career">
+        <div class="section-heading">
+          <p class="eyebrow">MY JOURNEY</p>
+          <h2>FOOTBALL <span>CAREER.</span></h2>
+          <p class="section-note">My football journey and development</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span>01 / BEGINNING</span>
+              <h3>My Football Journey</h3>
+              <p>The beginning of my journey in football. Learning the fundamentals and developing my skills.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span>02 / DEVELOPMENT</span>
+              <h3>Player Development</h3>
+              <p>Improving my defensive abilities, passing and tactical understanding.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span>03 / NEXT CHAPTER</span>
+              <h3>Future Ambitions</h3>
+              <p>Working towards new opportunities, football trials and academy experiences.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="achievements section" id="achievements">
+        <div class="section-heading">
+          <p class="eyebrow">MY ACHIEVEMENTS</p>
+          <h2>Achievements <span>& Awards</span></h2>
+          <p class="section-note">Every step forward is part of the journey.</p>
+        </div>
+
+        <div class="achievements-grid">
+          <div class="achievement-card">
+            <span class="achievement-icon">🏆</span>
+            <h3>First Achievement</h3>
+            <p>Add your real achievement here.</p>
+            <span class="achievement-year">YEAR</span>
+          </div>
+          <div class="achievement-card">
+            <span class="achievement-icon">🥇</span>
+            <h3>Competition</h3>
+            <p>Add a real competition or award.</p>
+            <span class="achievement-year">YEAR</span>
+          </div>
+          <div class="achievement-card">
+            <span class="achievement-icon">⭐</span>
+            <h3>Personal Milestone</h3>
+            <p>Add an important milestone from your journey.</p>
+            <span class="achievement-year">YEAR</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="player-profile section" id="profile">
+        <div class="section-heading">
+          <p class="eyebrow">PLAYER INFORMATION</p>
+          <h2>PLAYER <span>PROFILE.</span></h2>
+        </div>
+
+        <div class="profile-container">
+          <div class="profile-image">
+            <img src="assets/images/player.jpg.pro.jpeg" alt="Football player portrait" />
+          </div>
+
+          <div class="profile-info">
+            <h3>ABDERRAHMAN AIT HADDOU</h3>
+            <p class="profile-position">LEFT BACK</p>
+
+            <div class="profile-data">
+              <p><span>Nationality</span> Moroccan</p>
+              <p><span>Position</span> Left Back</p>
+              <p><span>Strong Foot</span> Left</p>
+              <p><span>Jersey Number</span> 5</p>
+            </div>
+
+            <a href="#" class="profile-download">Download Player CV</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section" id="gallery">
+        <div class="section-heading">
+          <p class="eyebrow">MY FOOTBALL MOMENTS</p>
+          <h2>FOOTBALL <span>GALLERY.</span></h2>
+          <p class="section-note">Moments from my football journey.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+
+    <img src="assets/images/player.jpg.jpeg" alt="Football portrait">
+
+    <div class="gallery-caption">
+        <span>PLAYER MOMENT</span>
+        <h3>My Football Journey</h3>
+        <p>Passion, discipline and ambition.</p>
+    </div>
+
+</div>
+          <div class="gallery-item">
+    <img src="assets/images/player.jpg.pro.jpeg" alt="Football player">
+
+    <div class="gallery-caption">
+        <span>PLAYER MOMENT</span>
+        <h3>My Football Journey</h3>
+        <p>Passion, discipline and ambition.</p>
+    </div>
+</div>
+          <div class="gallery-item">
+    <img src="assets/images/player.jpg2.jpeg" alt="Football player">
+
+    <div class="gallery-caption">
+        <span>PLAYER MOMENT</span>
+        <h3>My Football Journey</h3>
+        <p>Passion, discipline and ambition.</p>
+    </div>
+</div>
+          <div class="gallery-item">
+    <img src="assets/images/player.jpg.pro.jpeg" alt="Football player">
+
+    <div class="gallery-caption">
+        <span>PLAYER MOMENT</span>
+        <h3>My Football Journey</h3>
+        <p>Passion, discipline and ambition.</p>
+    </div>
+</div>
+        </div>
+      </section>
+      <section class="ambitions section" id="ambitions">
+        <div class="section-heading">
+          <p class="eyebrow">MY FUTURE GOALS</p>
+          <h2>FOOTBALL <span>AMBITIONS.</span></h2>
+          <p class="section-note">My dreams, my goals and my football journey.</p>
+        </div>
+
+        <div class="club-search">
+          <span>⌕</span>
+          <input type="text" id="clubSearch" placeholder="Search for a club or academy..." />
+          <button id="clearSearch" type="button">×</button>
+        </div>
+
+        <div class="club-results">
+          <p id="clubResults">Showing all clubs</p>
+        </div>
+
+        <div class="club-filters">
+          <button class="filter-btn" id="favoritesFilter" data-filter="favorites">
+    ★ MY FAVORITES
+    <span class="favorites-count" id="favoritesCount">0</span>
+</button>
+          <button class="filter-btn active" data-filter="all">ALL</button>
+          <button class="filter-btn" data-filter="spain">LA LIGA</button>
+          <button class="filter-btn" data-filter="england">PREMIER LEAGUE</button>
+          <button class="filter-btn" data-filter="france">LIGUE 1</button>
+          <button class="filter-btn" data-filter="germany">BUNDESLIGA</button>
+          <button class="filter-btn" data-filter="italy">SERIE A</button>
+          <button class="filter-btn" data-filter="morocco">MOROCCO</button>
+        </div>
+
+        <div class="ambitions-grid clubs-grid">
+          <div class="no-clubs-message" id="noClubsMessage">
+            <span>⚽</span>
+            <h3>No Clubs Found</h3>
+            <p>Try searching with another club name.</p>
+          </div>
+
+          <div class="ambition-card club-card" data-league="spain">
+            <img src="assets/images/clubs/real-madrid.png.jpeg" alt="Real Madrid" />
+            <span>SPAIN</span>
+            <h3>Real Madrid</h3>
+            <p>La Liga</p>
+          </div>
+
+          <div class="ambition-card club-card" data-league="spain">
+            <img src="assets/images/clubs/barcelona.png.jpeg" alt="Barcelona" />
+            <span>SPAIN</span>
+            <h3>FC Barcelona</h3>
+            <p>La Liga</p>
+          </div>
+
+          <div class="ambition-card club-card" data-league="spain">
+            <img src="assets/images/clubs/atletico.png.jpeg" alt="Atletico Madrid" />
+            <span>SPAIN</span>
+            <h3>Atletico Madrid</h3>
+            <p>La Liga</p>
+          </div>
+
+          <div class="ambition-card club-card" data-league="england">
+            <img src="assets/images/clubs/man-city.png.jpeg" alt="Manchester City" />
+            <span>ENGLAND</span>
+            <h3>Manchester City</h3>
+            <p>Premier League</p>
+          </div>
+
+          <div class="ambition-card club-card" data-league="england">
+            <img src="assets/images/clubs/man-united.png.jpeg" alt="Manchester United" />
+            <span>ENGLAND</span>
+            <h3>Manchester United</h3>
+            <p>Premier League</p>
+          </div>
+
+          <div class="ambition-card club-card" data-league="england">
+            <img src="assets/images/clubs/liverpool.png.jpeg" alt="Liverpool" />
+            <span>ENGLAND</span>
+            <h3>Liverpool</h3>
+            <p>Premier League</p>
+          </div>
+
+          <div class="ambition-card club-card" data-league="england">
+            <img src="assets/images/clubs/arsenal.png.jpeg" alt="Arsenal" />
+            <span>ENGLAND</span>
+            <h3>Arsenal</h3>
+            <p>Premier League</p>
+          </div>
+
+          <div class="ambition-card club-card" data-league="france">
+            <img src="assets/images/clubs/psg.png.jpeg" alt="Paris Saint-Germain" />
+            <span>FRANCE</span>
+            <h3>Paris Saint-Germain</h3>
+            <p>Ligue 1</p>
+          </div>
+
+          <div class="ambition-card club-card" data-league="france">
+            <img src="assets/images/clubs/marseille.png.jpeg" alt="Marseille" />
+            <span>FRANCE</span>
+            <h3>Olympique Marseille</h3>
+            <p>Ligue 1</p>
+          </div>
+
+          <div class="ambition-card club-card" data-league="germany">
+            <img src="assets/images/clubs/bayern.png.jpeg" alt="Bayern Munich" />
+            <span>GERMANY</span>
+            <h3>Bayern Munich</h3>
+            <p>Bundesliga</p>
+          </div>
+
+          <div class="ambition-card club-card" data-league="germany">
+            <img src="assets/images/clubs/dortmund.png.jpeg" alt="Borussia Dortmund" />
+            <span>GERMANY</span>
+            <h3>Borussia Dortmund</h3>
+            <p>Bundesliga</p>
+          </div>
+
+          <div class="ambition-card club-card" data-league="italy">
+            <img src="assets/images/clubs/inter.png.jpeg" alt="Inter Milan" />
+            <span>ITALY</span>
+            <h3>Inter Milan</h3>
+            <p>Serie A</p>
+          </div>
+
+          <div class="ambition-card club-card academy-card" data-league="morocco">
+            <img src="assets/images/clubs/mohammed6-academy.png.jpeg" alt="Mohammed VI Football Academy" />
+            <span>MOROCCO</span>
+            <h3>Mohammed VI Academy</h3>
+            <p>Football Academy</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="highlights section" id="highlights">
+        <div class="section-heading">
+          <p class="eyebrow">03 / MEDIA</p>
+          <h2>MY <span>HIGHLIGHTS.</span></h2>
+        </div>
+
+        <div class="highlights-grid">
+          <div class="highlight-card">
+            <video controls poster="assets/images/player.jpg.jpeg">
+              <source src="assets/videos/highlights.mp4" type="video/mp4" />
+              Your browser does not support video.
+            </video>
+            <div class="highlight-info">
+              <h3>My Football Highlights</h3>
+              <p>Skills • Matches • Performance</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>LET'S <span>CONNECT.</span></h2>
+          <p class="section-note">For football opportunities and professional enquiries.</p>
+        </div>
+
+        <div class="social-container">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-card">
+            <span>📸</span>
+            <h3>Instagram</h3>
+            <p>Follow my football journey</p>
+          </a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="social-card">
+            <span>▶️</span>
+            <h3>YouTube</h3>
+            <p>Watch my football videos</p>
+          </a>
+          <a href="mailto:YOUR_EMAIL@example.com" class="social-card">
+            <span>✉️</span>
+            <h3>Email</h3>
+            <p>Professional enquiries</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Abderrahman Ait Haddou</p>
+      <p>FOOTBALL • DISCIPLINE • AMBITION</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
